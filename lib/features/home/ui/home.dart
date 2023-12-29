@@ -65,12 +65,16 @@ class _HomeState extends State<Home> {
                 title: const Text('Bingo'),
                 actions: [
                   IconButton(
+                      padding: const EdgeInsets.only(right: 10),
+                      iconSize: 28,
                       onPressed: () {
                         homeBloc
                             .add(HomeProductWishlistButtonNavigatePressed());
                       },
                       icon: const Icon(Icons.favorite_border)),
                   IconButton(
+                      iconSize: 28,
+                      padding: const EdgeInsets.only(right: 10),
                       onPressed: () {
                         homeBloc.add(HomeProductCartButtonNavigatePressed());
                       },

@@ -34,13 +34,14 @@ class ProductTileWidget extends StatelessWidget {
             style: const TextStyle(fontWeight: FontWeight.bold)),
         Text(productDataModel.description),
         const SizedBox(
-          height: 20,
+          height: 10,
         ),
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             Text("\$ ${productDataModel.price}",
-                style: const TextStyle(fontWeight: FontWeight.bold)),
+                style:
+                    const TextStyle(fontWeight: FontWeight.bold, fontSize: 18)),
             Row(
               children: [
                 IconButton(
