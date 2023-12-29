@@ -1,16 +1,53 @@
-# bingo
+# Bingo (E-Commerce App)
 
-A new Flutter project.
+Bingo is a Flutter application that built using BLOC statemanagment.
 
-## Getting Started
+## Things I learned while building this app
 
-This project is a starting point for a Flutter application.
+- **Flutter Framework:** This project helped me understand the Flutter framework in depth, including state management, navigation, and widget composition.
 
-A few resources to get you started if this is your first Flutter project:
+- **State Management:** I learned how to use Provider for state management to ensure that the UI reflects the current app state.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **User Interface Design:** I learned how to create a responsive and attractive user interface using Flutter's widget system.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Error Handling:** I learned how to handle errors and exceptions in Dart and Flutter.
+
+- **Version Control:** I learned how to use Git for version control, including committing changes, pushing to a remote repository, and resolving merge conflicts.
+
+## Features
+
+- Product Listing: Displays a list of all available products.
+- Product Details: Users can view more detailed information about a product.
+- Add to Cart: Users can add products to their shopping cart.
+- Wishlist: Users can add products to their wishlist for future reference.
+
+## Steps to run the app
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+
+What things you need to install the software and how to install them:
+
+- Flutter SDK
+- Dart SDK
+- An IDE like VS Code or Android Studio
+
+### Installing
+
+A step by step series of examples that tell you how to get a development environment running:
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/your_username_/Project-Name.git
+   ```
+2. Navigate to the project directory
+   ```sh
+   cd Project-Name
+   ```
+3. Run the app
+   ```sh
+   flutter run
+   ```
+
+# Thank You.
